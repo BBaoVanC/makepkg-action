@@ -1,0 +1,12 @@
+name: "Arch Linux makepkg"
+description: "Build packages for Arch Linux"
+inputs:
+    path:
+        description: "Path to the parent directory of the PKGBUILD"
+        required: false
+        default: ""
+runs:
+    using: docker
+    image: Dockerfile
+    args:
+        - "${{ inputs.path }}"
