@@ -6,4 +6,3 @@ fi
 
 #makepkg -s --noconfirm --config /makepkg.conf
 makepkg -s --noconfirm
-namcap -i *.pkg.*
