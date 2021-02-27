@@ -1,4 +1,4 @@
-FROM archlinux:base-devel-20210131.0.14634
+FROM archlinux:base-devel
 
 COPY entrypoint.sh /entrypoint.sh
 
