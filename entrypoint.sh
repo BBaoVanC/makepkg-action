@@ -10,4 +10,4 @@ chown -R builder "$PWD"
 su -l builder -c 'makepkg -s --noconfirm'
 
 #makepkg -s --noconfirm --config /makepkg.conf
-makepkg -s --noconfirm
+#makepkg -s --noconfirm
